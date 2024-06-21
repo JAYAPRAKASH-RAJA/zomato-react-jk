@@ -1,0 +1,27 @@
+.locationBox{
+    height: 45px;
+    justify-content: left;
+    margin-left: -600px;
+    width: 477px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+  padding-left: 30px;
+  font-size: 18px;
+  color: grey;
+ }
+ .homeImage{
+  width: 100%;
+  margin-bottom: 20px;
+  /* margin-left: 50px; */
+  /* margin-right: 50px; */
+  margin-top: 0px;
+}
+img {
+  float: left;
+  margin-left: 20px;
+  border-radius: 30px;
+  margin-top: 25px;
+  width: auto;
+  flex: 4;
+}

@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+}
+
+.homeImage {
+  height: 450px;
+  width: 100%;
+}
+
+.navs {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding-right: 20px;
+  margin-right: 30px;
+}
+
+.loginButton {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.createButton {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.topSection {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  height: 44px;
+  margin: auto;
+  padding: 50px;
+  font-size: 80px;
+  font-family: Poppins;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 40px;
+  letter-spacing: normal;
+  color: #fff;
+  opacity: 1;
+  font-style: italic;
+}
+
+.headerText {
+  height: 51px;
+  font-size: 36px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.searchOptions {
+  margin-top: 30px;
+}
+
+.noSearch {
+  list-style: none;
+  background-color: lightgray;
+  background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+  padding: 10px 15px 10px 25px;
+  border: 1px solid #ccc;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.searchInput  {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 19px;
+  padding: 5px;
+  font-family: calibri light;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: lightgray;
+  color: gray;
+  padding-left: 29px;
+  
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  max-height: 390px;
+  width: 500px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 5px 0 5px;
+  border-left: none;
+  border-right: none;
+  margin-right: 230px;
+}
+
+
+.locationBox {
+  width: 245px;
+  height: 45px;
+  margin: 0 21px 0 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+  color: rgb(239, 79, 95);
+  ;
+}
+
+.searchBox {
+  position: absolute;
+  left: 38%;
+  width: 350px;
+  border-radius: 5px;
+  max-height: 450px;
+}
+
+.searchBox span {
+  position: absolute;
+  display: block;
+  background: #FFD32E;
+  bottom: -35px;
+  left: -1px;
+  width: 360px;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.searchIcon {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  color: rgb(239, 79, 95);
+}
+
+.searchInput {
+  width: 477px;
+  height: 45px;
+  border-radius: 10px;
+  margin: 0 0 0 150px;
+  padding: 10px;
+  background-color: #fff;
+  padding-left: 30px;
+  font-size: 18px;
+  color: rgb(239, 79, 95);
+}
+
+.bottomSection {
+  margin: 50px 80px 80px 80px;
+}
+
+.heading {
+  height: 43px;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.subHeading {
+  height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.button{
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 25px;
+  margin: 10px;
+  align-items: end;
+  justify-content: end;
+  /* margin-right: 300px; */
+}
+
+.boxContainer {
+  margin-top: 30px;
+}
+
+.boxContent {
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+  background-color: #fff;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.boxContainer {
+  margin-top: 30px;
+  width: 33.33%;
+  display: inline-block;
+}
+
+
+.boxes {
+  float: left;
+  width: 33%;
+}
+
+.qsImage {
+  position: absolute;
+  left: 15px;
+  width: 160px;
+  height: 160px;
+  margin: 0 29px 0 0;
+}
+
+.itemHeading {
+  position: absolute;
+  top: 0px;
+  left: 190px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.itemDescription {
+  position: absolute;
+  top: 50px;
+  left: 190px;
+  max-width: 190px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+.qs-box {
+  display:inline-block;
+  width: 33%;
+  left: 40px;
+  position: relative;
+
+}
+.qs-box-contents {
+  height: 150px;
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 /16%);
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position:relative;
+
+}
+.qs-image{
+  width: 130px;
+  height: 120px;
+ 
+}
+.qs-item-heading {
+  position: absolute;
+  top:0px;
+  left: 160px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color:purple;
+
+
+}
+.qs-item-description{
+  position: absolute;
+  top:50px;
+  left:190px;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color:purple;
+}
+
+@media (max-width: 1136px) {
+  .itemDescription {
+    max-width: 150px;
+    left: 170px;
+    top: 30px;
+  }
+
+  .itemHeading {
+    left: 170px;
+  }
+}
+
+@media (max-width: 914px) {
+  .boxes {
+    width: 100%;
+    display: inline-block;
+
+  }
+
+  .boxContent {
+    left: -20px;
+  }
+
+  .itemDescription {
+    width: 140px;
+    left: 180px;
+    top: 50px;
+  }
+
+  .itemHeading {
+    left: 180px;
+  }
+
+  .searchInput {
+    width: 300px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+
+  .locationBox {
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #fff;
+  }
+
+  .searchIcon {
+    display: none;
+  }
+}
+
+@media (min-width: 390px) {
+  .boxes {
+    width: 360px;
+    display: inline-block;
+
+  }
+}
+
+@media (min-width: 375px) {
+  .boxes {
+    align-items: center;
+    width: 360px;
+
+
+  }
+}

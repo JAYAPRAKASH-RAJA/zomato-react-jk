@@ -1,0 +1,297 @@
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin: 20px 0;
+}
+
+.filterPanel {
+  height: 682px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  padding: 15px;
+}
+
+.resultPanel {
+  height: 291px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.filterPanelHeading {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.filterPanelSubHeading {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin: 15px 0;
+}
+
+.locationSelection {
+  height: 35px;
+  width: 100%;
+  padding: 8px 16.7px 7px 15px;
+  border-radius: 3px;
+  border: solid 1px #192f60;
+}
+
+.cuisineOption {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin: 10px;
+}
+
+.upperSection {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.lowerSection {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.resultsImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+}
+
+.NoItem {
+  color: red;
+  font-style: revert;
+  font-size: xxx-large;
+  font-weight: bolder;
+}
+
+.resultsHeading {
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.resultsSubHeading {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.resultsAddress {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+} */
+
+.top {
+  background-color: red;
+  height: 45px;
+}
+
+h1 {
+  display: inline;
+  margin-left: 100px;
+}
+
+.sym {
+  border: 2px solid white;
+  color: rgb(240, 24, 24);
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  margin-top: 5px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.btn {
+  margin-top: 7px;
+  background-color: transparent;
+  float: right;
+  padding: 7px;
+}
+
+.b1 {
+  border: none;
+  color: white;
+}
+
+.b2 {
+  margin-right: 100px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+}
+
+img {
+  float: left;
+  margin-left: 20px;
+  border-radius: 30px;
+  margin-top: 25px;
+  width: auto;
+  flex: 4;
+}
+
+.img1, .img2, .love1, .love2 {
+  box-shadow: 2px 0px 18px 1px gray;
+  height: 250px;
+  
+  /* margin-top: px; */
+  margin-bottom: 30px;
+ 
+}
+
+.para {
+  margin: 0;
+  margin-bottom: 50px;
+  margin-left: 150px;
+}
+
+.cost {
+  border-top: 2px solid grey;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.hed {
+  margin-left: 50px;
+}
+
+h4 {
+  margin: 0;
+  margin-left: 150px;
+  padding: 10px;
+}
+
+.had {
+  margin-top: 10px;
+  margin: 0;
+  margin-left: 150px;
+}
+
+.rubes {
+  margin-top: 20px;
+}
+
+.pg {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+.num {
+  border: 1px solid black;
+  width: 15px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2px;
+  margin: 5px;
+}
+
+.heading {
+  margin-left: 50px;
+  margin: none;
+}
+
+.mfilter {
+  box-shadow: 2px 0px 18px 1px gray;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.no :nth-child(2) {
+  background-color: black;
+  color: white;
+}
+
+.flexe {
+  display: flex;
+  margin-left: 40px;
+}
+
+.container3 {
+  padding: 50px;
+  width: 80%;
+}
+
+
+
+/* @media screen and (max-width: 1220px) {
+
+  .resultsHeading,
+  .resultsSubHeading,
+  .resultsAddress {
+    margin-left: 70px;
+  }
+
+  .lowerSection {
+    padding-top: 0;
+  }
+
+  .lowerSection .resultsAddress {
+    margin-left: 0;
+    width: 100px;
+  }
+
+  .resultPanel {
+    margin-top: 30px;
+  }
+
+  .heading {
+    margin-left: 30px;
+  }
+} */
+
+/*# sourceMappingURL=filter.css.map */
